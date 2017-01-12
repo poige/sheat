@@ -18,3 +18,6 @@
 
 
 # }
+
+# l2arc_write_max
+# l2arc_headroom
