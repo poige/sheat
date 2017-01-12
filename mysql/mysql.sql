@@ -1,5 +1,8 @@
 -- faster #shutdown: {
   set global innodb_max_dirty_pages_pct = 0;
+-- #monitor actual status before #shutdown {
+    mysqladmin ext -i 3 | fgrep dirty
+  -- }
 -- }
 
 -- before #upgrade, #checklist: {
