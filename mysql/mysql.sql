@@ -1,5 +1,5 @@
--- faster shutdown: {
-set global innodb_max_dirty_pages_pct = 0;
+-- faster #shutdown: {
+  set global innodb_max_dirty_pages_pct = 0;
 -- }
 
 -- before #upgrade, #checklist: {
